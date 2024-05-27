@@ -9,7 +9,8 @@ b = 1
 c = 10
 d = 100
 print(a is b) #True
-
+print(a is not b) #False
+# print(a is c) #False
 print(a == b and c > d)
 print (a == b or c > d)
 
